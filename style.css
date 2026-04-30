@@ -1,0 +1,56 @@
+body {
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; /* Инро илова кун, то ки дар канорҳо ҷойҳои холӣ намонад */
+}
+
+img {
+    border-radius: 50%;
+    width: 100px; /* Андозаи расмро худат танзим кун */
+}
+
+.card {
+    max-width: 380px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 50px;
+    text-align: center; /* Матнҳо дар дохили корт дар марказ шаванд */
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin-top: 24px;
+}
+li a{
+    display:block;
+    background-color:hsl(0, 0%, 20%); 
+    color:white;
+    text-decoration: none;
+    padding:12px;
+    margin-bottom: 16px;
+    border-radius:12px;
+    font-weight: 700;
+    transition:0.3s;
+}
+li a:hover {
+    background-color: hsl(75, 94%, 57%); /* Ранги сабз (Green) */
+    color: hsl(0, 0%, 8%); /* Матн сиёҳ мешавад */
+}
+.location{
+     color: hsl(75, 94%, 57%);
+     font-weight: 700;
+     margin-top: 8px;
+}
+.attribution{
+    margin-top: 20px;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+}
